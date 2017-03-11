@@ -1,0 +1,59 @@
+iframe.iframe_like_box{
+    width: auto;
+    max-width: 100px;
+    height: 25px;
+    border: none;
+}
+
+._like_button{
+    height: 20px;
+    width: auto;
+    display: block;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #888888;
+    vertical-align: middle;
+}
+
+._like_button img{
+    float: left !important;
+    height: 100%;
+    width: auto;
+    margin: 4px 0 0 0;
+}
+
+._like_button span.summary, ._like_button span.like_word, ._like_button span.unlike_word{
+    float: left;
+    width: auto;
+    font-family: Tahoma;
+    vertical-align: middle;
+    margin: 2px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+._like_button span.summary{
+    color: Red;
+}
+
+._like_button span.like_word{
+    cursor: pointer;
+}
+
+._like_button span.like_word:hover{
+    text-decoration: underline;
+}
+
+
+._like_button span.unlike_word{
+    color: #DDDDDD;
+    cursor: pointer;
+}
+
+._like_button span.unlike_word:hover{
+    text-decoration: underline;
+    color: #888888;
+}
+
+
+

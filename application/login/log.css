@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+#signup_wrapper
+{   width: 70%;
+    height:	auto;   
+    margin: 0 auto;
+    margin-bottom: 5px;
+	padding: 2px 2px 2px 2px;
+	border: 2px #633 solid;
+
+}
+#signup_block_Edit
+{	      
+    width: 1000px;
+    height:	450px;
+	margin: 0 auto;
+}
+#signup_block_Edit .Edit1
+{
+	float: left;
+	width: 100px;
+	height:250px;
+	padding: 2px 2px 2px 2px;
+	margin: 20px; 
+	margin-right: 0px 0px 0px 0px;
+	
+}
+#signup_block_Edit .Name
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;  
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Edit .Company
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;  
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Edit .Address
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;   
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Edit .Email
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;    
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Edit .Edit2
+{
+	float: left;
+	width: 500px;
+	height:290px;
+	margin: 20px;
+	margin-right: 1px;
+	//border: 3px #00F solid;
+	//border: 2px #F00 solid;
+}
+.label
+{
+	background-color:#CCC;
+	width: 200px;
+}
+#signup_block_Edit .txtname
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;  
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Edit .txtCompany
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;  
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Editt .txtAddress
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;   
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Edit .txtEmail
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;    
+	padding: 20px 20px 20px 20px;
+	
+}
+#signup_block_Edit .Edit3
+{
+	float: left;
+	width: 160px;
+	height:200px;
+	margin: 25px;
+	border: 3px #00F solid;
+}
+#signup_block_Edit .photos
+{	
+	width: 110px;
+	height:	0px;
+	margin: 0 auto;
+	padding: 2px 2px 2px 2px;
+	
+}
+.p{
+	font-family:"Monotype Corsiva";
+	font-size:25px;
+	font-style:normal;
+	color:#C00;
+	margin-left:120px;
+	}
+.bt_signup
+{
+	margin-left:195px;
+}
+button
+{   
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: block;
+}
+	
+button:hover 
+{
+	
+	
+	background-color:#FAFAFA;
+	 border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: block;
+	cursor:pointer;
+}
+button:link
+{
+	color:#00D;
+}
+a:link
+{
+	color:#FC9;
+}
+table
+{
+	border:2px;
+	border-color:#00F;
+	margin-top:20px;
+	background-position:center;
+	width:70%;
+	height:80%;
+	vertical-align:middle;     
+}
+p.text
+{
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	width:70px;
+	text-align:center;   
+}
+p.textedit{
+	width:50px;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-size:10px;
+	height:10px;
+}
+input{
+     
+	clear: both;
+	font-size:18px;
+	
+	color:blue;
+	border: 1px solid #FFB6C1;
+	background-color: #FFFFF0;
+	font-family: "Times New Roman", serif,arial;
+	padding: 5px;
+}
+input:hover
+{
+	background-color:#F0F0F0;
+	border-color:#06F;
+	
+}
+.button:hover{
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: block;
+    padding: 2px 8px 2px 8px;
+    margin: 2px 5px 2px 5px;
+    cursor: default;
+    background: #ffffff;
+    color: #444444;
+}
+div.form_subject_insert div.content div.subject_form_button:hover{
+    background: #f3f3f3;
+}

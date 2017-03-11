@@ -1,0 +1,209 @@
+html{
+    overflow-y: hidden;
+}
+
+
+div.footer{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin: 0 auto;
+    /*position: absolute;*/
+    bottom: 0px;
+    z-index: 100;
+    background: #ffffff;
+    border: none;
+    border-top: 1px solid #d2d2d2;
+    position: fixed;
+    display: none;
+}
+
+div.header{
+	height:40px;
+	width:100%;
+    min-width: 800px;
+    /*position: fixed;*/
+    border: none;
+    top: 0;
+    z-index: 400;
+    background: #ffffff;
+    /*border-bottom: 1px solid #d2d2d2;*/
+    background-color: #66ACCA;
+}
+
+div.template{
+    width: 100%;
+    margin: auto;
+    min-width: 800px;
+    /*position: fixed;*/
+    background: transparent;
+    z-index: 19;
+    height: 95%;
+}
+
+div.wrapper{
+    position: absolute;
+    z-index: 20;
+    width: 90%;
+    min-width: 800px;
+}
+
+div.template div.left, div.template div.right{
+    width: 26%;
+    height: 100%;
+    padding-right: 1%;
+    overflow: auto;
+    background: #FFFFFF;
+}
+
+div.template div.left{
+    float: left;
+    padding-left: 5px;
+}
+
+div.template div.right{
+    float: right;
+    padding-left: 10px;
+}
+
+div.template div.content{
+    margin: 0px auto;
+    padding-top: 10px;
+    width: 44%;
+    float: left;
+    z-index: 200;
+    height: 100%;
+    overflow: auto;
+    /*position: relative;*/
+}
+
+/*div.wrapper div.content{
+    margin: 52px auto;
+    width: 44%;
+    z-index: 200;
+    position: relative;
+}*/
+
+
+div.right div.language_block{
+    width: 80%;
+    float: left;
+    margin: 20px 0 10px 10px;
+    height: 25px;
+}
+
+div.add_icon{
+    background: url(../images/add.gif);
+}
+
+div.add_icon:hover{
+    background: url(../images/add_over.gif);
+}
+
+div.view_more{
+    background: url(../images/list_go.png);
+    cursor: pointer;
+}
+
+div.view_more:hover{
+    border-bottom: 1px solid #999999;
+}
+
+div.button{
+    border: 1px solid #BEDEEE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: inline;
+    width: auto;
+    padding: 2px 8px 2px 8px;
+    margin: 2px 5px 2px 5px;
+    cursor: default;
+    background: #ffffff;
+    color: #323232;
+}
+
+div.button:hover{
+    background: #f5fbfb;
+}
+
+div.popup{
+    border: #6699FF;
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    -moz-box-shadow: 10px 10px 5px #dadada;
+    -webkit-box-shadow: 10px 10px 5px #dadada;
+    box-shadow: 10px 10px 5px #dadada;
+}
+
+
+input[type=file].fakefile{
+    width: 120px;
+    height: 20px;
+    padding: 5px;
+    position: relative;
+    top: -20px;
+    opacity: 0.01;
+    filter: alpha(opacity = 1);
+    cursor: default;
+}
+
+div.icon{
+    width: 16px;
+    height: 16px;
+    float: left;
+    border: 1px solid transparent;
+}
+
+div.icon:hover{
+    border: 1px solid #66ACCA;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.icon.delete{
+    background: url(../images/delete.gif);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    /*background-position: 7px 5px;*/
+}
+
+div.icon.edit{
+    background: url(../images/btn_edit.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    /*background-position: 5px 2px;*/
+}
+
+div.icon.add{
+    background: url(../images/add.gif);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    /*background-position: 5px 2px;*/
+}
+
+div.hide_left{
+    color: #66ACCA;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    padding: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: block;
+    padding-top: 2px;
+    border: 1px solid transparent;
+    position: absolute;
+    bottom: 60%;
+    left: 26%;
+    background-image: url(../images/arrow_left.png);
+    background-repeat: no-repeat;
+    background-position: 4px 5px;
+}
+
+div.hide_left:hover{
+    border: 1px solid #66ACCA;
+}
+

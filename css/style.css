@@ -1,0 +1,57 @@
+html, body,.clear  div, .clear span, .clear applet, .clear object, .clear iframe,
+.clear h1, .clear h2, .clear h3, .clear h4, .clear h5, .clear h6, .clear p, .clear blockquote, .clear pre,
+.clear a, .clear abbr, .clear acronym, .clear address, .clear big, .clear cite, .clear code,
+.clear del, .clear dfn, .clear em, .clear img, .clear ins, .clear kbd, .clear q, .clear s, .clear samp,
+.clear small, .clear strike, .clear strong, .clear sub, .clear sup, .clear tt, .clear var,
+.clear b, .clear u, .clear i, .clear center,
+.clear dl, .clear dt, .clear dd, .clear ol, .clear ul, .clear li,
+.clear fieldset, .clear form, .clear label, .clear legend,
+.clear table, .clear caption, .clear tbody, .clear tfoot, .clear thead, .clear tr, .clear th, .clear td,
+.clear article, .clear aside, .clear canvas, .clear details, .clear embed,
+.clear figure, .clear figcaption, .clear footer, .clear header, .clear hgroup,
+.clear menu, .clear nav, .clear output, .clear ruby, .clear section, .clear summary,
+.clear time, .clear mark, .clear audio, .clear video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.clear article, .clear aside, .clear details, .clear figcaption, .clear figure,
+.clear footer, .clear header, .clear hgroup, .clear menu, .clear nav, .clear section {
+	display: block;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.clear ol, .clear ul {
+	list-style: none;
+}
+.clear blockquote, .clear q {
+	quotes: none;
+}
+.clear blockquote:before, .clear blockquote:after,
+.clear q:before, .clear q:after {
+	content: '';
+	content: none;
+}
+.clear table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tip_text{
+    color: #FF0033;
+    font-size: 11px;
+    font-family: Tahoma;
+}
+
+div.js_message_text{
+    display: none;
+}
+
